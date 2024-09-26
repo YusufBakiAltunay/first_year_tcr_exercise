@@ -43,3 +43,36 @@ nav img {
   width: 500px;
   height: auto;
 }
+
+.colorhtml{
+  color: #0071BB;
+}
+
+.colorcss{
+  color: #E44D27;
+}
+
+.imghtmlcss{
+  width: 200px;
+  height: 200px;
+}
+
+.containerimghtmlcss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerhtmlcss{
+  width: 100vw;
+  min-height: 75vh;
+}
+
+.htmlcss{
+  width: 500px;
+  margin-left: 80px;
+}
+
+.footerhtmlcss{
+  width: 100vw;
+  min-height: 10vh;
+}
