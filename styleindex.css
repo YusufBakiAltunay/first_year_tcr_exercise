@@ -1,0 +1,17 @@
+.main{
+    text-align: center;
+    width: 100%;
+    background-image: url(img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+ .c2{
+    color: white; 
+    padding-top: 300px;
+    font-size: 50px;
+}
+
