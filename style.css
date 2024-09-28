@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -53,29 +55,246 @@ nav img {
 }
 
 .imghtmlcss{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+  
 }
 
 .containerimghtmlcss{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 100px;
 }
 .containerhtmlcss{
   width: 100vw;
-  min-height: 75vh;
+  height: 76vh;
+  text-align: center;
 }
 
 .htmlcss{
   width: 500px;
   margin-left: 80px;
+  text-align: left;
+  font-size: 20px;
 }
 
-.footerhtmlcss{
+footer{
   width: 100vw;
   min-height: 10vh;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
 }
+
+.main{
+  text-align: center;
+  width: 100%;
+  background-image: url(img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+
 .c2{
-  min-height: 100vh;
+  color: white; 
+  padding-top: 300px;
+  font-size: 50px;
 }
+
+
+.containerimghtmlcss{
+  margin-top: 80px;
+}
+
+.hoofdstukhtmlcss{
+  font-size: 50px;
+  padding-top: 100px;
+}
+/* Javascript */
+.javabody{
+  background-color: black;
+}
+
+.javah2, .javap, .hoofdstukjava{
+  color: white;
+}
+
+.colorjava{
+  color: #F7DF1E;
+}
+
+.javacontainer{
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+}
+
+.imgjava{
+  width: 300px;
+  height: 300px;
+}
+
+.alljava{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  margin-top: 30px;
+  gap: 150px;
+}
+
+
+
+.containerph2{
+  width: 500px;
+  text-align: left;
+}
+
+.containerph2{
+  font-size: 20px;
+}
+
+.hoofdstukjava{
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+/* php */
+.phpcontainer{
+  width: 100vw;
+  height: 72vh;
+  text-align: center;}
+
+.containerimgph2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.imgphp{
+  width: 400px;
+  height: 200px;
+}
+
+.containerph2php{
+  width: 500px;
+}
+
+.colorphp{
+  color:#8993BE ;
+}
+
+.containerph2php{
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.pphp{
+  font-weight: 100;
+}
+
+.hoofdstukphp{
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+
+
+/* SQL */
+
+
+.sqlcontainer{
+  width: 100vw;
+  height: 75vh;
+  text-align: center;
+}
+
+.containerph2sql{
+  width: 400px;
+  margin-right: 120px;
+  color: white;
+}
+
+.imgsql{
+  width: 400px;
+  height: 200px;
+}
+
+.colorsql{
+  color: #E48E00 ;
+}
+
+.containerimgph2sql{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.hoofdstuksql{
+  padding-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+.sqlbody{
+  background-color: black;
+}
+
+  /* Contact */
+
+.contactall{
+  width: 100vw;
+  height: 76vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+form{
+  margin-top: 50px;
+  width: 400px;
+
+  text-align: left;
+  }
+
+
+
+.contacth1{
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.contactbutton{
+  padding: 5px 170px;
+  background-color: #00A8C7;
+  border: none;
+  color: white;
+}
+
+
+input{
+  width: 400px;
+  margin: 10px 0;
+}
+
+.inputmessage{
+  width: 400px;
+  height: 100px;
+}
+
+label{
+  font-size: larger;
+}
+
+
