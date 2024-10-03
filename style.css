@@ -22,6 +22,9 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 nav ul {
   display: flex;
@@ -68,8 +71,9 @@ nav img {
 }
 .containerhtmlcss{
   width: 100vw;
-  height: 76vh;
+  height: 110vh;
   text-align: center;
+  margin-top: 100px;
 }
 
 .htmlcss{
@@ -86,6 +90,9 @@ footer{
   text-align: center;
   padding-top: 30px;
   font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .main{
@@ -129,8 +136,9 @@ footer{
 
 .javacontainer{
   width: 100vw;
-  height: 70vh;
+  height: 110vh;
   text-align: center;
+  margin-top: 150px;
 }
 
 .imgjava{
@@ -167,8 +175,10 @@ footer{
 /* php */
 .phpcontainer{
   width: 100vw;
-  height: 72vh;
-  text-align: center;}
+  height: 110vh;
+  text-align: center;
+  margin-top: 150px;
+}
 
 .containerimgph2{
   display: flex;
@@ -211,8 +221,9 @@ footer{
 
 .sqlcontainer{
   width: 100vw;
-  height: 75vh;
+  height: 110vh;
   text-align: center;
+  margin-top: 150px;
 }
 
 .containerph2sql{
@@ -235,7 +246,7 @@ footer{
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-  font-size: 15px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -253,7 +264,7 @@ footer{
 
 .contactall{
   width: 100vw;
-  height: 76vh;
+  height: 105vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -262,9 +273,7 @@ footer{
 }
 
 form{
-  margin-top: 50px;
   width: 400px;
-
   text-align: left;
   }
 
