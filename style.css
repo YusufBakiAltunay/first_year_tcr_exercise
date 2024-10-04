@@ -320,6 +320,10 @@ label{
   margin-top: 40px;
 }
 
+.dropdown .dropbtn{
+  padding: 40px 25px ;
+}
+
 .dropdown-content a{
   color:#00A8C7 ;
   display: block;
@@ -331,7 +335,6 @@ label{
 }
 
 .dropdown:hover .dropbtn{
-  padding: 40px 30px;
   color: #00a8c7;
   background-color: white;
 }
@@ -341,3 +344,4 @@ label{
   height: auto;
   background-color: #E9E9E9;
 }
+
