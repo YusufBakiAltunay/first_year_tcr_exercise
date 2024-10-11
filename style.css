@@ -326,8 +326,8 @@ label{
 
 .dropdown-content a{
   color:#00A8C7 ;
-  display: block;
   padding: 5px;
+  display: block;
 }
 
 .dropdown:hover .dropdown-content{
