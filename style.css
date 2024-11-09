@@ -39,6 +39,8 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
+  opacity: 1;
+  filter: contrast(1.75);
 }
 nav img {
   width: 5vw;
@@ -113,6 +115,7 @@ footer{
 .c2{
   color: white; 
   font-size: 50px;
+  filter: contrast(1.75);
 }
 
 
@@ -311,13 +314,22 @@ label{
 
 /* dropdown */
 
+
+
+
+
+
+
+
 .dropdown-content{
-  display: none;
   position: absolute;
   background-color: white;
   width: 200px;
   z-index: 1;
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  display: none; 
 }
 
 .dropdown .dropbtn{
@@ -327,11 +339,10 @@ label{
 .dropdown-content a{
   color:#00A8C7 ;
   padding: 5px;
-  display: block;
 }
 
 .dropdown:hover .dropdown-content{
-  display: block;
+  display: flex;
 }
 
 .dropdown:hover .dropbtn{
@@ -342,6 +353,7 @@ label{
 .dropdownoop:hover, .dropdownlaravel:hover, .dropdowntesten:hover{
   width: 200px;
   height: auto;
-  background-color: #E9E9E9;
-}
+  background-color:#aeacac;
+}  
+
 
